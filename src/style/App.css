@@ -59,8 +59,9 @@ border-radius: 9px;
     background: transparent;
     border: none;
     outline: none;
-    color: #797979;
+    color: #333333;
     font-size: 19px;
+    letter-spacing: 2px;
 }
 .forgotPassword {
     padding-left: 62px;
