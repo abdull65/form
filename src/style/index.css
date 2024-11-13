@@ -7,10 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   background: linear-gradient(#2a00b7, #42006c);
-overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 0 5px;
+  }
 }
