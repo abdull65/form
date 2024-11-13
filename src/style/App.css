@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.header h1 {
+font-size: 46px;
+font-weight: 700;
+color: #2a00b7;
+}
+.underline {
+width: 65px;
+height: 6px;
+background-color: #2a00b7;
+border-radius: 9px;
+}
+.formInputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+}
+.inputDiv {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+.icon {
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 0 30px;
+}
+.input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+.forgotPassword {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.forgotPassword span {
+    color: #42006c;
+    cursor: pointer;
+}
+
+.buttonBox {
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+.button {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 180px;
+     height: 50px;
+     background-color: #2a00b7;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 600;
+     letter-spacing: 2px;
+     border-radius: 50px;
+     cursor: pointer;
+     border: none;
+}
+.button.active {
+background-color: #eaeaea;
+color: #676767;
+}
+
+.viewIcon {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: 90vh;
+        margin: 20px 0;
+        padding: 20px 5px 0;
+        border-radius: 0;
+    }
+    .inputDiv {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+    }
+    .button {
+        width: 140px;
+        height: 44px;
+    }
+    .forgotPassword {
+        padding-left: 10px;
+    }
+}
