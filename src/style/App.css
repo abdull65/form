@@ -123,6 +123,9 @@ color: #676767;
     .icon {
         margin-left: 10px;
     }
+    .buttonBox {
+        gap: 15px;
+    }
     .button {
         width: 150px;
         height: 44px;
