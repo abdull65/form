@@ -16,5 +16,6 @@ code {
 @media (max-width: 600px) {
   body {
     padding: 0 8px;
+    overflow: hidden;
   }
 }
